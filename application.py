@@ -11,6 +11,6 @@ api = Api(app)
 class Employees(Resource):
     def get(self):
 
-        return {1,1,1,2,3,3,4,3} # Fetches first column that is Employee ID
+        return "Hello World" # Fetches first column that is Employee ID
       
 api.add_resource(Employees, '/employees') # Route_1
